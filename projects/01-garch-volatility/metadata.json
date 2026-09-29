@@ -1,0 +1,37 @@
+{
+  "config": {
+    "symbol": "ITUB4",
+    "exchange": "BMFBOVESPA",
+    "bars": 3000,
+    "test_size": 252,
+    "training_window": 1000,
+    "historical_window": 20,
+    "end_date": "",
+    "output_dir": "garch_results",
+    "show_plots": true
+  },
+  "source": "TradingView via tvDatafeed",
+  "created_utc": "20260929T124609_540475Z",
+  "data_quality": {
+    "received_rows": 3000,
+    "used_rows": 3000,
+    "removed_by_date_filters": 0,
+    "start": "2014-08-28",
+    "end": "2026-09-28",
+    "abs_returns_above_20pct": 0,
+    "calendar_gaps_above_7days": 0
+  },
+  "snapshot_sha256": "44bf2c518aed8ddd41236808af5f5d8bfe39ae890b4fd2ae2fd639a12c4dff64",
+  "packages": {
+    "numpy": "1.24.4",
+    "pandas": "2.0.3",
+    "matplotlib": "3.7.5",
+    "arch": "5.6.0",
+    "tvdatafeed": "2.1.0"
+  },
+  "paired_n": 252,
+  "requested_test_n": 252,
+  "failed_fits": 0,
+  "fits_with_warnings": 0,
+  "persistence_at_least_0999": 0
+}
